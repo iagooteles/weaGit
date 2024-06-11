@@ -1,6 +1,5 @@
 import './home.css';
 import { Link } from 'react-router-dom';
-
 import { BsSignpost } from 'react-icons/bs';
 import { TiWeatherStormy } from 'react-icons/ti';
 

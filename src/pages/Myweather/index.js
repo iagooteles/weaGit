@@ -1,12 +1,10 @@
 import './myweather.css';
 import Header from '../../Components/Header';
-
 import { AiOutlineSearch } from 'react-icons/ai';
 import { FiX } from 'react-icons/fi';
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 import { getWeatherData } from '../../services/api';
 
 export default function MyWeather() {
